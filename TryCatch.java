@@ -7,6 +7,7 @@ public class TryCatch { // 예외 처리 예제 클래스 정의
         } catch (ArithmeticException e) {
             // ArithmeticException: 0으로 나눌 때 발생하는 예외
             System.out.println("예외 발생: " + e.getMessage());
+            
             // getMessage()는 예외 메시지 ("by zero") 반환
         }
     }
